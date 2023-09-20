@@ -1,4 +1,4 @@
-public class TransportWithEngine extends Transport {
+public abstract class TransportWithEngine extends Transport {
 
     public TransportWithEngine(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
